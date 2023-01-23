@@ -1,0 +1,54 @@
+<html>
+    <head>
+            <meta charset="utf-8"> 
+            <title>Calculadora</title>
+            <link rel="shortcut icon" href="imagens/icone.ico" type="image/x-icon">
+            <link rel="stylesheet" href="css/Calculadora.css">
+    </head>
+    <body>
+        <header>
+            <h1>Calculadora</h1>
+        </header>
+        <section>
+            <table>
+                <div id="numero"></div>
+                <div id="sinal"></div>
+                <div id="numeroSinal"></div>
+                <thead>
+                    <tr>
+                        <th colspan="5" id="display"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><button id="botao" class="numero" value="1" onclick="botao(this.value)">1</td>
+                        <td><button id="botao" class="numero" value="2" onclick="botao(this.value)">2</td>
+                        <td><button id="botao" class="numero" value="3" onclick="botao(this.value)">3</td>
+                        <td><button id="botao" class="sinal"  value="+" onclick="botao(this.value)">+</td>
+                        <td rowspan="3"><button id="botao" class="igual" value="=" onclick="botao(this.value)">=</td>
+                    </tr>
+                    <tr>
+                        <td><button id="botao" class="numero" value="4" onclick="botao(this.value)">4</td>
+                        <td><button id="botao" class="numero" value="5" onclick="botao(this.value)">5</td>
+                        <td><button id="botao" class="numero" value="6" onclick="botao(this.value)">6</td>
+                        <td><button id="botao" class="sinal"  value="-" onclick="botao(this.value)">-</td>
+                    </tr>
+                    <tr>
+                        <td><button id="botao" class="numero" value="7" onclick="botao(this.value)">7</td>
+                        <td><button id="botao" class="numero" value="8" onclick="botao(this.value)">8</td>
+                        <td><button id="botao" class="numero" value="9" onclick="botao(this.value)">9</td>
+                        <td><button id="botao" class="sinal"  value="*" onclick="botao(this.value)">*</td>
+                    </tr>
+                    <tr>
+                        <td><button id="botao" class="button_ac" value="ac" onclick="botao(this.value)">AC</button></td>
+                        <td><button id="botao" class="numero" value="0" onclick="botao(this.value)">0</td>
+                        <td><button id="botao" class="numero" value="." onclick="botao(this.value)">.</td>
+                        <td><button id="botao" class="sinal"  value="/" onclick="botao(this.value)">/</td>
+                        <td><button id="botao" class="sinal" value="%" onclick="botao(this.value)">%</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <script src="js/Calculadora.js"></script>
+    </body>
+</html>

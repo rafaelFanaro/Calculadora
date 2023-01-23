@@ -1,0 +1,57 @@
+h1{
+    font-size: 80px;
+    color: red;
+    text-align: center;
+}
+
+table{
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: solid;
+    background-color: rgb(100, 100, 100);
+    
+}
+
+td{
+    width: 20%;
+}
+
+button{
+    font-size: 2em;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: grab;
+}
+
+.igual{
+    background-color: red;
+}
+
+.sinal{
+    background-color: rgb(65, 64, 64);
+}
+
+.button_ac{
+    background-color: red;
+}   	
+
+th{
+    font-size: 2.5em;
+    text-align: right;
+    font-weight: bold;
+    padding: 2% 10% 3% 0%;
+    color: rgb(255, 255, 255);
+    border: solid;
+    border-color: black;
+}
+
+#numero, #sinal, #numeroSinal {
+   display: none;
+}
